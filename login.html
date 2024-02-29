@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            table {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Login utente</h2>
+        <form action="home.php" method="post">
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Numero:</td>
+                    <td><input type="text" name="numero" required></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" name="s1" value="Invia">
+            <input type="reset" name="r1" value="Cancella">
+        </form>
+        <br>
+        <h2>Login personale</h2>
+        <form action="amministra.php" method="post">
+            <table>
+                <tr>
+                    <td>Codice fiscale:</td>
+                    <td><input type="text" name="cf" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" name="s1" value="Invia">
+            <input type="reset" name="r1" value="Cancella">
+        </form>
+    </body>
+</html>
